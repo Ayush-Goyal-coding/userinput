@@ -32,8 +32,9 @@ public class MainActivity extends AppCompatActivity {
      */
     int quantity = 0;
     public void submitOrder(View view) {
+        int price = calculatePrice();
         display(quantity);
-        displayMessage("That would be : $" + quantity*5);
+        createOrderSummary(price);
     }
     public void increament(View view){
         quantity++;
@@ -47,23 +48,28 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method displays the given quantity value on the screen.
      */
-    private void display(int number) {
+    private void display(int numberOfCofees) {
         TextView quantityTextView = (TextView) findViewById(R.id.quantity_text_view);
-        quantityTextView.setText("" + number);
+        quantityTextView.setText("" + numberOfCofees);
     }
-    /**
-     * This method displays the given price on the screen.
-     */
-    private void displayPrice(int number) {
-        TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
-        priceTextView.setText(NumberFormat.getCurrencyInstance().format(number));
-    }
+
     /**
      * This method displays the given text on the screen.
      */
     private void displayMessage(String message) {
-        TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
-        priceTextView.setText(message);
+        TextView orderTextView = (TextView) findViewById(R.id.order_summary_text_view);
+        orderTextView.setText(message);
+    }
+    private int calculatePrice()
+    {
+        return quantity * 5;
+    }
+    /
+    private void createOrderSummary(int price){
+        displayMessage("Name: ayushGoyal" +
+                "\nQuantity =" + quantity +
+        "\nTotal = " + price +
+        "\nThank you");
     }
 
 }
