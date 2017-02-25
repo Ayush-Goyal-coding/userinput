@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.my.userinput.MainActivity"
+    >
+
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -8,7 +15,33 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.my.userinput.MainActivity">
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="toppings"
+        android:textAllCaps="true"
+        android:paddingTop="16dp"/>
+    <CheckBox
+    android:id="@+id/whipped_cream_checkbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Wipped cream"
+    android:textSize="16sp"
+    android:paddingLeft="24dp"
+
+    />
+    <CheckBox
+        android:id="@+id/choco_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChololateTopping"
+        android:textSize="16sp"
+        android:paddingLeft="24dp"
+
+        />
+
 
     <TextView
         android:id="@+id/name"
@@ -16,7 +49,8 @@
         android:layout_height="wrap_content"
         android:paddingBottom="16dp"
         android:text="quantity"
-        android:textAllCaps="true" />
+        android:textAllCaps="true"
+        android:paddingTop="16dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -74,3 +108,4 @@
         android:text="ORDER" />
 
 </LinearLayout>
+</ScrollView>
