@@ -28,27 +28,29 @@
         android:text="toppings"
         android:textAllCaps="true"
         android:paddingTop="16dp"/>
-    <CheckBox
-    android:id="@+id/whipped_cream_checkbox"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Wipped cream"
-    android:textSize="16sp"
-    android:paddingLeft="24dp"
 
-    />
-    <CheckBox
+        <CheckBox
+        android:id="@+id/whipped_cream_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whipped cream"
+        android:textSize="16sp"
+        android:paddingLeft="24dp"
+
+        />
+
+        <CheckBox
         android:id="@+id/choco_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ChololateTopping"
+        android:text="Chocolate Topping"
         android:textSize="16sp"
         android:paddingLeft="24dp"
 
         />
 
 
-    <TextView
+        <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

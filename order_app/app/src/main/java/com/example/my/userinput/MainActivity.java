@@ -16,7 +16,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-//import com.example.my.userinput.R;
+//import  ;
 
 /**
  * This app displays an order form to order coffee.
