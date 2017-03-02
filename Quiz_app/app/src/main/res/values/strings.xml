@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quizzz</string>
+
+
+    <string name="Q1">Q1.Which space shuttle carried Hubble to orbit in April 1990?</string>
+    <string name="Q2">Q2. Roughly how old is Earth?</string>
+    <string name="Q2c1">4.5 Billion years</string>
+    <string name="Q2c2">4.5 Million years</string>
+    <string name="Q2c3">6000 years</string>
+    <string name="Q2c4">Around My Grand grandfathers age</string>
+    <string name="Q3">Q3. The Above picture was taken by ?</string>
+    <string name="Q3c1">Hubble Space Telescope </string>
+    <string name="Q3c2">Voyegar 1</string>
+    <string name="Q3c3">Curiosity Rover</string>
+    <string name="Q3c4">International Space Station</string>
+    <string name="Submit">Submit</string>
+
+</resources>

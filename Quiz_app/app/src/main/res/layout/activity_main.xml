@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.my.quiz_app.MainActivity">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name:"
+            android:id="@+id/name"
+            android:layout_marginBottom="12dp"
+            android:inputType="textCapWords"/>
+
+        <TextView
+            style="@style/customBasic"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:text="@string/Q1"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Q1correct"
+                android:text="Discovery" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Curiousity" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atlantis" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="INSAT 1B" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/customBasic"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:text="@string/Q2"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q2correct"
+            android:text="@string/Q2c1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q2c2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q2c3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="@string/Q2c4" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/sumbit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Submit"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:onClick="submit"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/Ans"
+            android:layout_alignBottom="@id/sumbit_button"
+            android:fontFamily="casual"
+            android:textColor="#3E2723"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>
