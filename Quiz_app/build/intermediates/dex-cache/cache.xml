@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_edd0f21deef31893393f638a9efc84463e8a2980.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_46e9e9a1abccd279cf072c8cb4922df03bca8b66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_2296c74a3f86b36dad3ecbf37485a46dd2c7b9e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_480202c53c4bbe94f9acf77776a40958c7268a76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_3896f8dab6cdb3fda7bb196ab09aabeaa7bd4259.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_9af172fb317a98bfcb9ed237da2ab0432388a97d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_b568796fac62f257deef5fba296f55ffa69650e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\My\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_24b7aaccff68587925c6b292dc668832e0e1845c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_90af8dbec9c1f9ecb40f969f1372a6040f0cfe2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="E:\Git\app_using_userinput\Quiz_app\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_291a5e2f45de837d24aa399f20810ef4cd6525ba.jar" />
+    </item>
+
+</items>
